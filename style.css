@@ -19,40 +19,29 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
-    box-sizing: border-box;
+    padding: 18px 5%;
     height: 100px;
     background-color: #f0eee8;
-}
-
-.items {
-    display: flex;
-    gap: 20px;
-}
-
-.items li {
-    list-style: none;
+    gap: 25px;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%; */
 }
 
 .time {
-    margin-right: 20vw;
     width: 240px;
 }
-
-/* .search {
-    margin-left: 50px;
-    width: 100%;
-
-} */
-
-.search input {
-    width: 100%;
-    height: 100%;
-    border: none;
-    padding: 0 10px;
-    border-radius: 15PX;
+nav input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f7f7f7;
+    font-size: 15px;
 }
 
 #login-btn {
@@ -125,10 +114,16 @@ footer p {
 .useful {
     columns: 3;
     padding: 10px 10px;
+    text-align: left;
+    
+}
+.first{
+    text-align: left;
 }
 
 .useful li {
     list-style: none;
+    color: #555;
 }
 .upper{
     display: grid;
